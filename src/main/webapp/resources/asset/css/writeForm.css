@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* 글 작성, 글 수정 등의 form태그르 사용하게 되는 모든 영역에서 사용하는 공통CSS */
+
+
+/* form의 영역을 감싸는 div */
+.write_box {margin:50px 0;}
+
+
+#f {width:700px;}
+
+/* (form)의 reset */
+.btn {float:right; margin-bottom:20px;}
+
+label {
+	font-size:14px; 
+	font-weight:400; 
+	color:#aaa;
+}
+
+input[type="text"], 
+input[type="password"], 
+textarea, 
+button {
+	width:100%; 
+	margin-bottom:40px;
+}
+
+input[type="button"], 
+button {
+	cursor:pointer;
+}
+
+textarea { 
+	padding-left:10px;
+	 padding-top:10px; 
+	 height:425px; 
+	 margin-top:5px;
+}
+
+input[name="title"], 
+textarea {
+	border-color:#bf3a3e;
+}
+
+input[type="button"] {padding:0 40px;}
+
+input[value="목록"] {margin:0 10px;}
+
+input[value="초기화"]:hover, 
+input[value="수정"]:hover {
+	background-color:#ececec; 
+	color:#222;
+}
+
+
+input[name="writer"] {  /* 작성자는 수정할 수 없다. 회색으로 고정 */
+	color:#333;
+	font-weight:400;
+}
+
+
+
+
+/* 배경을 칠한 버튼은 작어보여서 높이를 +5px 준다 */
+button {
+	height:55px; 
+	margin-top:10px;
+	background-color:#bf3a3e; 
+	color:#f8eae1;
+}
+
+
+

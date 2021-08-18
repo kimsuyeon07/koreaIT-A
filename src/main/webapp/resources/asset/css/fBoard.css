@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+
+/* 상단의 검색바와 죄회 드롭 */
+#search, #drop {margin-top:50px;}
+
+
+/* 자유 게시판의 칼럼마다의 너비 지정 */
+td:nth-child(1) {width:7%;}
+td:nth-child(2) {width:13%;}
+td:nth-child(3) {width:55%;}
+td:nth-child(4) {width:6%;}
+
+
+/* 자유 게시판의 tbody 영역 */
+#fBoard_list {}
+
+
+/* 이벤트, 홍보글 */
+.type {
+	border-radius:100px;
+	padding: 3px 16px;
+}
+.promotion {background-color:#d3b9ac; color:white;}
+.event {background-color:#c06356; color:white;}
+
+

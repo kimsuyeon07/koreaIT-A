@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* View에서 h1수정 */
+.con_title {
+	border:none; 
+	padding-bottom:50px;
+	font-weight:300;
+}
+
+
+/* 로그인 정보를 넘겨주는 form */
+#f {
+	width:450px;
+}
+
+#f button {margin-top:35px; margin-bottom:15px;}  /* 로그인 버튼 */
+#f input {border-color:#bf3a3e;} /* 로그인에 필요한 id, pw */
+#f input[type="radio"] {display:none;}
+
+#user, #owner {
+	font-size:14px; 
+	font-weight:400; 
+	color:#aaa;
+}
+
+
+/* 로그인 탭 : radio */
+.tap_click {
+	background-color:#bf3a3e;
+	color:#f8eae1;
+}
+#loginTap {
+	width:100%;
+	border-bottom:4px solid #bf3a3e;
+	margin-top:35px;
+	margin-bottom:65px;
+}
+#loginTap label {
+	display:inline-block;
+	width:223px;
+	height:55px;
+	line-height:55px;
+	text-align:center;
+	font-size:18px;
+}
+/* 로그인 버튼 하단의 a 태그를 담고 있는 div */
+.subLink { 
+	text-align:center;
+}
+.subLink a {color:#aaa;}
+.subLink a:hover {color:black; font-weight:400;}
+.subLink span {padding:0 15px; font-size:13px; color:#aaa;}
+

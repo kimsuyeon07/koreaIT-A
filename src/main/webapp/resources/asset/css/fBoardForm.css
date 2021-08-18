@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* 목록 */
+input[value="목록"]:hover {
+	background-color:#ececec; 
+	color:#222;
+}
+
+
+/* 이벤트,홍보글 radio CSS */
+.click {
+	background-color:#c06356;
+	color:#f8eae1;
+}
+input[type="radio"] {  /* radio버튼 업애기 */
+	display:none;
+}
+#radio, label {border-radius:100px;}
+#radio {
+	position:relative;
+	border:1px solid #c06356;
+}
+#radio label {
+	position:absolute;
+	top:-1px;
+	display:block;
+	text-align:center;
+	cursor:pointer;
+}
+.ownerChoiceRadio {
+	width:180px;
+	height:40px;
+	margin-left:0;
+}
+.ownerChoiceRadio label {
+	width:100px;
+	height:40px;
+	line-height:40px;
+}
+
+/* 현재 저장되어 있는 파일을 삭제할 것인지 표시하는 radio */
+.fileDeleteChoice {
+	width:250px;
+	height:35px;
+	margin-right:0;
+	margin-bottom:10px;
+}
+.fileDeleteChoice label {
+	width:130px;
+	height:35px;
+	line-height:35px;
+}
+
+label[for="event"] {left:-1px;}
+label[for="promotion"] {right:-1px;}
+label[for="false"] {right:-1px;}
+
+
+/* 게시글 수정 form */
+input[type="file"] {border:none; height:30px; margin-bottom:10px;}
+
+
+
+

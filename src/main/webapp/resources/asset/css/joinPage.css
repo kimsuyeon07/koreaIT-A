@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/* h1수정 */
+.con_title {
+	border:none; 
+	padding-bottom:70px;
+	font-weight:300;
+}
+
+
+
+/* navJoin.jsp의 (#joinBox) */
+#joinBox {width:100%; text-align:center;}
+#joinBox a {
+	display:inline-block;
+	width:150px;
+	height:150px;
+	border-radius:15px;
+	border: 1px solid #ddd;
+	margin: 0 20px;
+	box-shadow:3px 9px 12px #F4EDEB;
+}
+
+#joinBox i {
+	font-size:40px;
+	line-height:150px;
+}
+
+#joinBox a:hover {border-color:#bf3a3e;}
+#joinBox a:hover i {color:#bf3a3e;}
+
+
+
+/* 회원가입의 form */
+#f {
+	width:450px;
+	font-size:14px; 
+	font-weight:500; 
+	color:#333;
+}
+
+input {height:40px;} /* height 수정 */
+input[type="radio"] {height:15px;} /* height 수정 */
+input[type="text"], input[type="password"] {margin-bottom:65px;}
+textarea {height:235px; margin-bottom:10px;}
+
+#f span {display:block; margin-bottom:60px; font-size:14px;} /* 정규식과 비교, 내용 표시 */
+input[name="id"], input[name="no"], input[type="password"] {margin-bottom:10px;}
+
+input[id="join_btn"] {
+	margin-top:50px; 
+	margin-bottom:10px; 
+	width:100%;
+	height:55px;
+	background-color:#bf3a3e;
+	color: #f8eae1;
+}
+#f input:focus {border-color:#bf3a3e; color:black;} /* 현재 입력 중인 .input을 확인 할 수 있도록 */
+
+
+/* 이메일 */
+input[name="email"] {width:305px; margin-bottom:30px;}
+input[value="인증번호받기"] {padding:0 25px;}
+input[type="button"]:hover {
+	background-color:#bf3a3e;
+	color: #f8eae1;
+}
+input[name="user_key"] {width:305px;}
+
+
+
+/* 개인정보 _체크박스 */
+table {width:100%;}
+input[type="checkbox"] {height:16px;}
+label {
+	position:absolute;
+	padding-left:5px;
+}
+
+
+/* 사장님 회원가입의 table영역 */
+#ownerTable {}
+/* 1) 이용약관 보기 */
+#ownerTable tr:nth-child(1) td {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    padding-bottom:10px;
+}
+/* 2, 3, 4) 이용약관_textarea _전체동의 */
+#ownerTable tr:nth-child(2) td {padding-bottom:25px;}
+#ownerTable tr:nth-child(2) label,
+#ownerTable tr:nth-child(3) label,
+#ownerTable tr:nth-child(4) label {color:#666;}
+#ownerTable tr:nth-child(4)  {height:35px;}
+/* 5) 버튼 */
+#ownerTable tr:nth-child(5)  {}
+#ownerTable tr:nth-child(5) input[value="뒤로가기"]  {
+	display:flex;
+	margin-right:0;
+}
+
+
+
+
+

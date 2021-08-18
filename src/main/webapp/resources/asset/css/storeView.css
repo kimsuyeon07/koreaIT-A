@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+input[type="button"] {padding: 0 20px;}
+
+.outer {
+	margin: 0 auto;
+	width: 700px;
+	text-align: center;
+	padding: 30px;
+}
+
+.store_name {
+	font-size: 30px;
+	font-weight: 900;
+	margin: 40px;
+}
+
+.store_image {
+	width: 600px;
+	padding: 80px 80px 40px 80px;
+	margin-bottom: 30px;
+}
+
+
+.store_btns {
+	padding: 30px;
+	border-bottom: 1px solid gray;
+}
+
+.storeView_outer {
+	overflow: hidden;
+	width: 600px;
+	margin-left: 150px;
+}
+.storeView_outer > .storeView_list {
+	float: left;
+	padding: 20px 30px;
+}
+
+.store_section {
+	width: 100%;
+	border-top: 1px solid gray;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+.storeView_outer {
+	margin: 80px 80px;
+	
+}
+.storeView_list {
+	width: 80%;
+	text-align: center;
+	display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid gray;
+}
+
+.list_left {
+	text-align: left;
+}
+
+.list_left > h2 {
+	font-weight: 500;
+	color: #E3326A;
+}
+
+.list_right {
+	margin-left: 60px;
+	text-align: right;
+}
+
+.sns_link > a:link {
+	color: blue;
+}
+
+.sns_link > a:visited {
+	color: pink;
+}
+
+
+.btns {
+	width: 100%;
+	height: 100px;
+	padding: 30px;
+	
+}
+
+.category_box {
+	width: 500px;
+	margin-top: 70px;
+}
+
+/* 카테고리 */
+.category_icon > i {
+	color: #FA9D2E;
+	padding: 20px;
+}
+
+.category_box {
+	padding: 20px;
+	font-weight: 500;
+}
+
+
+
+/* Update Page */
+.update_btn:hover {
+	cursor: pointer;
+	background-color: #F5F979;
+}
+
+.delete_btn:hover {
+	cursor: pointer;
+	background-color: #F5F3F3;
+}
+
+.storeList_btn {
+	cursor: pointer;
+	font-weight: 700;
+	color: crimson;
+	margin-right: 10px;
+}
+
+.storeRes_btn:hover {
+	cursor: pointer;
+	font-weight: 700;
+	background-color: #FBACA1;
+}
+
+.grade_color {
+	color: #F3D040;
+}
+
+p {
+	color: red;
+	padding-top: 50px;
+}
+
